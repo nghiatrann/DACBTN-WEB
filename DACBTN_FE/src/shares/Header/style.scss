@@ -1,0 +1,51 @@
+.header-main {
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #FFF;
+}
+
+.brand-wrap .logo,
+.navbar-brand .logo {
+  margin-right: 7px;
+  max-height: 42px;
+  display: inline-block;
+}
+
+.widget-header {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  a {
+    color: #343a40;
+    &:hover {
+      color: #3167eb;
+    }
+  }
+  i {
+    color: #969696;
+  }
+  form {
+    min-width: 280px;
+  }
+  .title {
+    display: block;
+  }
+  .notify {
+    position: absolute;
+    top: -3px;
+    right: -10px;
+  }
+  &:hover {
+    i {
+      color: #3167eb;
+    }
+  }
+}
+.header-top-light .nav-link {
+  color: #969696;
+}
+.header-top-light .nav-link:hover {
+  color: #212529;
+}
+

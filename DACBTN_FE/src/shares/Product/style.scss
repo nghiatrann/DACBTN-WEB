@@ -1,0 +1,39 @@
+.card-product-grid {
+  margin-bottom: 20px;
+  .img-wrap {
+    border-radius: 0.2rem 0.2rem 0 0;
+    height: 220px;
+  }
+  .info-wrap {
+    overflow: hidden;
+    padding: 18px 20px;
+    .title {
+      color: #212529;
+      display: block;
+      &:hover {
+        color: #3167eb;
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    transition: 0.3s;
+    .btn-overlay {
+      opacity: 1;
+    }
+  }
+}
+.price {
+  font-weight: 600;
+  color: #212529;
+  &-old {
+    font-weight: 500;
+    color: rgba(153, 153, 153, 0.9);
+    font-size: 14px;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
